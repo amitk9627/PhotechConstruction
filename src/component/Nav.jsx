@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <>
-            <header className="flex justify-between items-center p-4 max-lg:p-1 h-28 w-full ">
+            <header className="flex justify-between items-center p-4 max-lg:p-1 h-28 w-full fixed z-50 ">
                 <div>
                     <NavLink to="/" className="flex items-center">
                         <img

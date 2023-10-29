@@ -86,7 +86,7 @@ const Home = () => {
                                 <img src="https://photechindia.in/assets/img/icon/2.png" alt="photechIndia" className='h-24 ' />
                                 <h1 className='text-3xl font-bold mt-2'>Integrity</h1>
                                 <p className='text-gray-700 text-xl mt-3 text-justify textHover'>
-                                    To conduct a business with the highest level of ethics towards our clients, 
+                                    To conduct a business with the highest level of ethics towards our clients,
                                     employees, business partners, government and public in general.
                                 </p>
                             </div>
@@ -111,8 +111,8 @@ const Home = () => {
                                 <img src="https://photechindia.in/assets/img/icon/8.png" alt="photechIndia" className='h-24' />
                                 <h1 className='text-3xl font-bold mt-2'>Health, Safety & Environment</h1>
                                 <p className='text-gray-700 text-xl mt-3 text-justify textHover'>
-                                    To respect the cardinal rules, safety laws of the land and internal safety guidelines 
-                                    with zero tolerance towards human injuries and to conduct our business to maintain 
+                                    To respect the cardinal rules, safety laws of the land and internal safety guidelines
+                                    with zero tolerance towards human injuries and to conduct our business to maintain
                                     a sustainable future for our generations.
                                 </p>
                             </div>
@@ -124,7 +124,10 @@ const Home = () => {
 
                 </div>
             </div>
-            < Footer />
+            <footer>
+                < Footer />
+                <p className='text-xl text-center text-white footerText p-2'>© Photech IT Technology and Construction. All rights reserved. Designed & Developed By PhoTech Technology.</p>
+            </footer>
         </>
     )
 }

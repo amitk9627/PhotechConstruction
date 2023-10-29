@@ -27,7 +27,7 @@ function Navbar() {
                     <NavLink to="/" className="text-xl font-bold">Services</NavLink>
                     <NavLink to="/" className="text-xl font-bold">Industries We Serve</NavLink>
                     <NavLink to="/" className="text-xl font-bold">Careers</NavLink>
-                    <NavLink to="/" className="text-xl font-bold">Contact Us</NavLink>
+                    <NavLink to="/contact" className="text-xl font-bold">Contact Us</NavLink>
 
                 </nav>
                 <button

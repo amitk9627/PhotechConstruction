@@ -5,13 +5,12 @@ const Footer = () => {
        
         <div className='footer-bg  p-20 mt-20 max-lg:p-10 max-sm:p-4'  >
             <div className="grid grid-cols-3 max-lg:grid-cols-2  max-md:grid-cols-1 gap-10 justify-evenly items-center  ">
-                <div >
+                <div>
                     <div><img src="https://photechindia.in/assets/img/photech-logo.png" alt="ProtechIndia" className='h-38 w-48' /></div>
                     <div className='mt-4 '>
                         <p className='text-white text-lg'>PhoTech India Private Limited is an Engineering and Construction Company, specialized to provide services in the field of Construction, Operation & Maintenance of Refineries, Petrochemicals, Fertilizers and other core industrial sectors.</p>
                     </div>
                 </div>
-
                 <div>
                     <div className=''>
                         <h1 className='text-3xl font-bold mb-4 text-white max-lg:text-2xl'>Quick Links</h1>
@@ -25,7 +24,6 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div> 
-
                 <div>
                     <div className='text-white'>
                         <h1 className='text-3xl font-bold mb-4 text-white max-lg:text-2xl '>Get In Touch</h1>

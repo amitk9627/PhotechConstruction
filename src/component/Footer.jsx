@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {NavLink} from 'react-router-dom'
 const Footer = () => {
     return (
        
@@ -15,12 +15,12 @@ const Footer = () => {
                     <div className=''>
                         <h1 className='text-3xl font-bold mb-4 text-white max-lg:text-2xl'>Quick Links</h1>
                         <ul>
-                            <li className='text-2xl link max-lg:text-lg'>Home</li>
-                            <li className='text-2xl link max-lg:text-lg'>About</li>
-                            <li className='text-2xl link max-lg:text-lg'>Services</li>
-                            <li className='text-2xl link max-lg:text-lg'>Industries We Serve</li>
-                            <li className='text-2xl link max-lg:text-lg'>Careers</li>
-                            <li className='text-2xl link max-lg:text-lg'>Contact Us</li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/'>Home</NavLink></li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/about'>About</NavLink></li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/'>Services</NavLink></li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/'>Industries We Serve</NavLink></li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/'>Careers</NavLink></li>
+                            <li className='text-2xl link max-lg:text-lg cursor-pointer'><NavLink to='/contact'>Contact Us</NavLink></li>
                         </ul>
                     </div>
                 </div> 

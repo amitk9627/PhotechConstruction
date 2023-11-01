@@ -106,3 +106,8 @@ nav a:hover {
 .contactBanner{
 	height: 50vh;
 }
+/* About bg image */
+.aboutBG{
+	background-image: url('./assests/about-single-1.jpg');
+	background-size: contain;
+}

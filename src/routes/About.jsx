@@ -1,13 +1,13 @@
-import React from 'react'
-import Navbar from '../component/Nav'
-import Footer from '../component/Footer'
-import about from '../assests/about.jpg'
-import c1 from '../assests/certificate_1.jpg'
-import c2 from '../assests/certificate_2.jpg'
-import c3 from '../assests/certificate_3.jpg'
-import { IoIosConstruct } from 'react-icons/io'
+import React from 'react';
+import Navbar from '../component/Nav';
+import Footer from '../component/Footer';
+import about from '../assests/about.jpg';
+import c1 from '../assests/certificate_1.jpg';
+import c2 from '../assests/certificate_2.jpg';
+import c3 from '../assests/certificate_3.jpg';
+import AB2 from '../assests/about-single-2.jpg';
+import { IoIosConstruct } from 'react-icons/io';
 const About = () => {
-
   return (
     <>
       <Navbar />
@@ -16,10 +16,10 @@ const About = () => {
           <img src={about} alt="photechIndia" style={{ height: "50vh", width: "100vw", objectFit: "cover" }} className='opacity-90  brightness-50 ' />
           <p className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-5xl'>About</p>
         </div>
-        <div className='mt-32 mx-20 flex flex-col gap-12 max-lg:mx-4 max-lg:mt-16 '>
+        <div className='mt-20 mx-20 flex flex-col gap-12 max-lg:mx-4 max-lg:mt-16 '>
           <div className='flex gap-10 w-full max-lg:flex-col'>
-            <div className="bg-[url('https://photechindia.in/assets/img/about/about-single-1.jpg')] w-1/2 relative max-lg:w-full h-96">
-              <img src="https://photechindia.in/assets/img/about/about-single-2.jpg" alt="photechIndia" className='w-4/5 max-lg:w-64 pt-4 pr-4 absolute bottom-0 left-0 bg-white' />
+            <div className="aboutBG w-1/2 relative max-lg:w-full max-lg:h-96">
+              <img src={AB2} alt="photechIndia" className='w-4/5 max-lg:w-64 h-72 object-cover max-lg:object-fill max-lg:h-auto pt-4 pr-4 absolute bottom-0 left-0 bg-white' />
               <p className='absolute right-0 bottom-0 w-28 bg-white text-center py-2 max-lg:h-36 max-lg:py-4 '><span className='text-7xl font-bold'>25</span>
                 <br />
                 <span className='text-sm'>Years of Success</span> </p>
@@ -59,6 +59,9 @@ const About = () => {
             <p>
               We have been involved in various jobs at different Engineering workshops like; the fabrication of pressure vessel columns,
               towers, modules, skids, special equipment, piping, heat exchangers etc.
+            </p>
+            <p className='font-semibold'>
+            The team delivers on time and within budget, proactively asking how to help the client and providing new ideas.
             </p>
           </div>
           <div className=' flex flex-col gap-3 '>

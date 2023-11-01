@@ -17,7 +17,7 @@ function Navbar() {
                         <img
                             src="https://photechindia.in/assets/img/photech-logo.png"
                             className="h-24 max-lg:h-16 ml-3 relative z-10"
-                            alt="Photech"
+                            alt="photechindia"
                         />
                     </NavLink>
                 </div>

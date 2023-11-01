@@ -94,8 +94,7 @@ const Home = () => {
                                 <img src="https://photechindia.in/assets/img/icon/4.png" alt="photechIndia" className='h-24' />
                                 <h1 className='text-3xl font-bold mt-2'>Innovation</h1>
                                 <p className='text-gray-700 text-xl mt-3 text-justify textHover'>
-                                    Thinking creatively, challenging the status quo and creating
-                                    efficiencies for cost-effective solutions.
+                                   The team delivers on time and within budget, proactively asking how to help the client and providing new ideas.
                                 </p>
                             </div>
                             <div className='border-2 rounded-tl-3xl rounded-br-3xl p-4 hover overflow-hidden hover:text-white'>

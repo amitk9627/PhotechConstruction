@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Titillium Web", sans-serif;
+	font-family:  sans-serif;
 }
 
 :root {
-	--mainColor: #141b35;
+	--mainColor: #0E1923;
 	--mainColorLight: #5767aa;
-	--secondaryColor: #db832b;
+	--secondaryColor: #edbd1f;
 	--textColor: #eee;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
 		position: absolute;
 		top: -100vh;
 		left: 0;
-		height: 60vh;
+		height: 55vh;
 		width: 100%;
 		display: flex;
 		z-index: 10;
@@ -95,7 +95,6 @@ nav a:hover {
 }
 .hover:hover::after {
     transform: scaleY(1);
-	
 }
 .hover:hover .textHover{
 	color:white;
@@ -103,9 +102,7 @@ nav a:hover {
 .footerText{
 	background: #060c23;
 }
-
-/* contact  */
+/* contact, about  */
 .contactBanner{
 	height: 50vh;
-	
 }

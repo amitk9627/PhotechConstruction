@@ -102,10 +102,7 @@ nav a:hover {
 .footerText{
 	background: #060c23;
 }
-/* contact, about  */
-.contactBanner{
-	height: 50vh;
-}
+
 /* About bg image */
 .aboutBG{
 	background-image: url('./assests/about-single-1.jpg');

@@ -12,7 +12,7 @@ const About = () => {
     <>
       <Navbar />
       <div className='pt-28'>
-        <div className='contactBanner relative '>
+        <div className='relative '>
           <img src={about} alt="photechIndia" style={{ height: "50vh", width: "100vw", objectFit: "cover" }} className='opacity-90  brightness-50 ' />
           <p className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-5xl'>About</p>
         </div>

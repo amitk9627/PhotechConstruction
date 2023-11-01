@@ -9,7 +9,7 @@ const Home = () => {
             <div className=''>
                 <div className='background flex justify-center items-center max-sm:h-96'>
                     <div className='text-white w-2/3 text-center max-lg:w-auto'>
-                        <p className='text-6xl font-bold  max-lg:text-5xl max-md:text-3xl max-md:font-semibold'>
+                        <p className='text-6xl font-bold  max-lg:text-5xl max-md:text-3xl max-md:font-semibold '>
                             <span>We Provided You Satisfied </span>
                             <br />
                             Connecting IT Technology and Construction</p>
@@ -77,11 +77,11 @@ const Home = () => {
                 </div>
 
                 <div>
-                    <div className='my-32 px-16'>
+                    <div className='my-32 px-16 max-lg:my-12 max-lg:px-8 max-md:px-4'>
                         <div className='text-center'>
-                            <span className='text-5xl font-bold border-yellow-400  border-b-2 text-yellow-400 '>Our Core Values</span>
+                            <span className='text-5xl font-bold border-yellow-400  border-b-2 text-yellow-400 max-lg:text-3xl'>Our Core Values</span>
                         </div>
-                        <div className='grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-5 mt-20'>
+                        <div className='grid grid-cols-4 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-5 mt-20 max-lg:mt-12 max-lg:gap-3'>
                             <div className='border-2 rounded-tl-3xl rounded-br-3xl p-4 hover overflow-hidden hover:text-white'>
                                 <img src="https://photechindia.in/assets/img/icon/2.png" alt="photechIndia" className='h-24 ' />
                                 <h1 className='text-3xl font-bold mt-2'>Integrity</h1>

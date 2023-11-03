@@ -4,7 +4,7 @@ import Footer from '../component/Footer';
 import {IoCallOutline} from 'react-icons/io5';
 import {AiOutlineMail} from 'react-icons/ai';
 import Cont from '../assests/contact.jpg';
-import Contact1 from '../assests/contact1.jpg';
+import contact1 from '../assests/contact1.jpg';
 const Contact = () => {
     return (
         <>
@@ -33,7 +33,7 @@ const Contact = () => {
                 <div className='mx-20 my-8 max-lg:my-2 max-lg:mx-5'>
                     <div className='grid grid-cols-2 max-lg:grid-cols-1 gap-5 max-lg:gap-3'>
                         <div className='overflow-hidden rounded-xl'>
-                            <img src={Contact1} alt="PhotechIndia" />
+                            <img src={contact1} alt="PhotechIndia" />
                         </div>
                         <div className='mt-4'>
                             <form className='flex flex-col gap-5 max-lg:gap-5'>

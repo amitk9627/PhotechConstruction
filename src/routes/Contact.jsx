@@ -4,7 +4,7 @@ import Footer from '../component/Footer';
 import {IoCallOutline} from 'react-icons/io5';
 import {AiOutlineMail} from 'react-icons/ai';
 import Cont from '../assests/contact.jpg';
-import Contact1 from '../assests/Contact1.jpg';
+import Contact1 from '../assests/contact1.jpg';
 const Contact = () => {
     return (
         <>

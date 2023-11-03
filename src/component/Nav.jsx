@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { NavLink } from 'react-router-dom'
-
+import logo from '../assests/logo.jpg'
 function Navbar() {
 
     const [show, setShow] = useState(false)
@@ -15,7 +15,7 @@ function Navbar() {
                 <div>
                     <NavLink to="/" className="flex items-center">
                         <img
-                            src="https://photechindia.in/assets/img/photech-logo.png"
+                            src={logo}
                             className="h-24 max-lg:h-16 ml-3 relative z-10"
                             alt="photechindia"
                         />

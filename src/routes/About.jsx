@@ -5,7 +5,7 @@ import about from '../assests/about.jpg';
 import c1 from '../assests/certificate_1.jpg';
 import c2 from '../assests/certificate_2.jpg';
 import c3 from '../assests/certificate_3.jpg';
-import AB2 from '../assests/about-single-2.jpg';
+import ABHOME from '../assests/About-home.jpg'
 import { IoIosConstruct } from 'react-icons/io';
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
         <div className='mt-20 mx-20 flex flex-col gap-12 max-lg:mx-4 max-lg:mt-16 '>
           <div className='flex gap-10 w-full max-lg:flex-col'>
             <div className="aboutBG w-1/2 relative max-lg:w-full max-lg:h-96">
-              <img src={AB2} alt="photechIndia" className='w-4/5 max-lg:w-64 h-72 object-cover max-lg:object-fill max-lg:h-auto pt-4 pr-4 absolute bottom-0 left-0 bg-white' />
+              <img src={ABHOME} alt="photechIndia" className='w-4/5 max-lg:w-64 h-72 object-cover max-lg:object-fill max-lg:h-auto pt-4 pr-4 absolute bottom-0 left-0 bg-white' />
               <p className='absolute right-0 bottom-0 w-28 bg-white text-center py-2 max-lg:h-36 max-lg:py-4 '><span className='text-7xl font-bold'>25</span>
                 <br />
                 <span className='text-sm'>Years of Success</span> </p>

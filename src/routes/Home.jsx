@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../component/Nav'
 import { IoIosConstruct } from 'react-icons/io'
 import Footer from '../component/Footer'
-import Cont from '../assests/Cont.jpg'
+import Cont from '../assests/Home4.jpg'
 import Cooperate from '../assests/coperate.jpg'
 import Home3 from '../assests/Home3.jpg'
 const Home = () => {
@@ -11,16 +11,16 @@ const Home = () => {
             <Navbar />
             <div className=''>
                 <div className='background flex justify-center items-center max-sm:h-96'>
-                    <div className=' w-2/3 text-center max-lg:w-auto'>
+                    <div className='text-gray-700 w-2/3 text-center max-lg:w-auto'>
                         <p className='text-6xl font-bold  max-lg:text-5xl max-md:text-3xl max-md:font-semibold '>
                             <span>We Provided You Satisfied </span>
                             <br />
-                            Connecting IT Technology and Construction</p>
+                            Photech India Creates IT World </p>
                     </div>
 
                 </div>
                 <div>
-                    <div className='my-10 mx-32  flex justify-between max-lg:flex-col gap-10 max-lg:mx-12 max-md:mx-3  '>
+                    <div className='my-16 mx-32  flex justify-between max-lg:flex-col gap-10 max-lg:mx-12 max-md:mx-3  '>
                         <div className='relative max-lg:flex max-lg:gap-3 max-lg:py-6 max-lg:flex-col max-lg:items-center max-lg:justify-center border-8 border-yellow-400 p-4 w-1/2 max-lg:w-full rounded-br-3xl rounded-tl-3xl max-lg:p-0 first-img'>
                             <div className='relative max-lg:w-96 overflow-hidden '>
                                 <img
@@ -68,13 +68,14 @@ const Home = () => {
                                 </p>
                                 <br />
                                 <p>We have been in this field for the last 5 years executing various jobs involving</p>
-                                <div className='flex flex-col gap-2 mt-4'>
+                                <div className='flex flex-col gap-4 max-lg:gap-2 mt-4'>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Web Design & Development</span></p>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Responsive Design</span></p>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Web Application</span></p>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Software Development</span></p>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Graphic Design</span></p>
                                     <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Mobile Application</span></p>
+                                    <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Figma & Wireframe Designing</span></p>
                                 </div>
                             </div>
                         </div>

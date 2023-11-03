@@ -15,7 +15,7 @@ const Home = () => {
                         <p className='text-6xl font-bold  max-lg:text-5xl max-md:text-3xl max-md:font-semibold '>
                             <span>We Provided You Satisfied </span>
                             <br />
-                            Photech India Creates IT World </p>
+                            Photech India Connects with IT Technology </p>
                     </div>
 
                 </div>

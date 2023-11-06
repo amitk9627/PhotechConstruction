@@ -8,10 +8,10 @@ import contact1 from '../assests/contact1.jpg';
 const Contact = () => {
     return (
         <>
-            <Navbar />
-            <div className='pt-28'>
+            {/* <Navbar /> */}
+            <div className=''> { /* */}
                 <div className='contactBanner relative '>
-                    <img src={Cont} alt="photechIndia"  className='opacity-90 w-full h-72 object-cover brightness-50 ' />
+                    <img src={Cont} alt="photechIndia"  className='opacity-90 w-full h-96 object-cover brightness-50  ' />
                     <span className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-4xl object-contain'>Contact Us</span>
                 </div>
                 <div className='  '>
@@ -45,10 +45,6 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <footer>
-                    < Footer />
-                    <p className='text-xl text-center text-white footerText p-2'>© Photech IT Technology and Construction. All rights reserved. Designed & Developed By PhoTech Technology.</p>
-                </footer>
             </div>
         </>
     )

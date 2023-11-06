@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../component/Nav';
-import Footer from '../component/Footer';
 import about from '../assests/about.jpg';
 import c1 from '../assests/certificate_1.jpg';
 import c2 from '../assests/certificate_2.jpg';
@@ -10,8 +9,8 @@ import { IoIosConstruct } from 'react-icons/io';
 const About = () => {
   return (
     <>
-      <Navbar />
-      <div className='pt-28'>
+      {/* <Navbar /> */}
+      <div className='pt-28'> { /* */}
         <div className='relative '>
           <img src={about} alt="photechIndia" style={{ height: "50vh", width: "100vw", objectFit: "cover" }} className='opacity-90  brightness-50 ' />
           <p className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-5xl'>About</p>
@@ -91,10 +90,6 @@ const About = () => {
 
         </div>
       </div>
-      <footer>
-        < Footer />
-        <p className='text-xl text-center text-white footerText p-2'>© Photech IT Technology and Construction. All rights reserved. Designed & Developed By PhoTech Technology.</p>
-      </footer>
     </>
   )
 }

@@ -11,23 +11,40 @@
 	--mainColor: #0E1923;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #edbd1f;
-	--textColor: #eee;
+	--textColor: #eee ;   
+	/* eee */
 }
-
+.background{
+	height: 100vh;
+	background-repeat: no-repeat;
+	backdrop-filter:brightness(10%);
+	background-image: url('./assests/businessTeamWorking-e989d864.png');
+	background-position: center;
+	background-size: cover;
+	background-clip: border-box;
+  }
 header {
-	
-	background-color: var(--mainColor);
+	position :fixed;
+	backdrop-filter: blur(5px);
+	margin-bottom: 100px;
+	background-color: transparent;
+	border-bottom: 0.5px solid #717171;
 	color: var(--textColor);
 }
 
 nav a {
 	margin: 0 1rem;
-	color: var(--textColor);
+	color: rgb(247, 244, 244);
 	text-decoration: none;
+	padding: 10px 0;
 }
 
 nav a:hover {
 	color: var(--secondaryColor);
+}
+nav a.active{
+	color:rgb(211, 73, 73);
+	border-bottom:3px solid white
 }
 
 .nav-btn {
@@ -41,30 +58,34 @@ nav a:hover {
 		position: absolute;
 		top: -100vh;
 		left: 0;
-		height: 55vh;
+		height: 100vh;
 		width: 100%;
 		display: flex;
 		z-index: 10;
 		flex-direction: column;
-		align-items: center;
+		align-items: left;
 		justify-items: space-between;
 		gap: 1.5rem;
-		margin-top: 90px;
-		background-color: var(--mainColor);
+		padding-top: 140px;
+		padding-left: 15px;
+		background-color: black;
+		color: white;
 		transition: 1s;
 	}
 
 	header .responsive_nav {
 		transform: translateY(100vh);
 	}
+	nav a {
+		margin: 0 1rem;
+		color: var(--textColor);
+		text-decoration: none;
+	}
 }
 
 .footer-bg {
-	background-color:var(--mainColor);
-	background-image: url('https://photechindia.in/assets/img/footer-bg.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-blend-mode: color-dodge;
+	background-color:rgb(37, 116, 242);
+	
 }
 
 .first-img {

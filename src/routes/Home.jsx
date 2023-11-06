@@ -1,21 +1,27 @@
 import React from 'react'
-import Navbar from '../component/Nav'
 import { IoIosConstruct } from 'react-icons/io'
-import Footer from '../component/Footer'
 import Cont from '../assests/Home4.jpg'
 import Cooperate from '../assests/coperate.jpg'
 import Home3 from '../assests/Home3.jpg'
+import Type from '../component/Type'
 const Home = () => {
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className=''>
-                <div className='background flex justify-center items-center max-sm:h-96'>
-                    <div className='text-gray-700 w-2/3 text-center max-lg:w-auto'>
-                        <p className='text-6xl font-bold  max-lg:text-5xl max-md:text-3xl max-md:font-semibold '>
-                            <span>We Provided You Satisfied </span>
-                            <br />
-                            Photech India Connects with IT Technology </p>
+                <div className='background relative max-sm:h-96 h-screen '>
+                    <div className='text-white w-2/3 bottom-28 max-lg:w-auto absolute left-10 '>
+                        <div>
+                            <p className="text-5xl text-white">
+                                <span>Digital Engineering through</span><Type />
+                            </p>
+                        </div>
+                        <p className='text-2xl  max-lg:text-5xl max-md:text-3xl max-md:font-semibold mt-10'>
+                        Your digital product success starts here; we are your partner in product<br /> development, 
+                        product design, and application modernization by offering end-to-end solutions, and 
+                        seamless user experience.
+                        </p>
+                        <p className=' mt-4'><span className='text-xl bg-blue-600 p-3'><button>Contact us</button></span></p>
                     </div>
 
                 </div>
@@ -131,10 +137,7 @@ const Home = () => {
 
                 </div>
             </div>
-            <footer>
-                < Footer />
-                <p className='text-xl text-center text-white footerText p-2'>© Photech IT Technology and Construction. All rights reserved. Designed & Developed By PhoTech Technology.</p>
-            </footer>
+           
         </>
     )
 }

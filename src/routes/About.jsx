@@ -10,9 +10,9 @@ const About = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className='pt-28'> { /* */}
+      <div className='-mt-28'> { /* */}
         <div className='relative '>
-          <img src={about} alt="photechIndia" style={{ height: "50vh", width: "100vw", objectFit: "cover" }} className='opacity-90  brightness-50 ' />
+          <img src={about} alt="photechIndia" style={{ height: "70vh", width: "100vw", objectFit: "cover" }} className='opacity-90  brightness-50 ' />
           <p className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-5xl'>About</p>
         </div>
         <div className='mt-20 mx-20 flex flex-col gap-12 max-lg:mx-4 max-lg:mt-16 '>

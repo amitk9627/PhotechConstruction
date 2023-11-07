@@ -4,7 +4,7 @@ import logo from '../assests/logo.jpg'
 const Footer = () => {
     return (
         <footer>
-            <div className='footer-bg  p-20 mt-10 max-lg:p-10 max-sm:p-4'  >
+            <div className='footer-bg  p-20  max-lg:p-10 max-sm:p-4'  >
                 <div className="grid grid-cols-3 max-lg:grid-cols-2  max-md:grid-cols-1 gap-10 justify-evenly items-center  ">
                     <div>
                         <div><img src={logo} alt="ProtechIndia" className='h-38 w-48' /></div>

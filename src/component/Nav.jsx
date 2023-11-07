@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <>
-            <header className="flex justify-between items-center p-4 max-lg:p-1 h-28 w-full z-50 header-bg">
+            <header className="flex justify-between items-center p-4 max-lg:p-1 h-28 w-full z-50 header-bg relative z-50">
                 <div>
                     <NavLink to="/" className="flex items-center">
                         <img
@@ -34,7 +34,7 @@ function Navbar() {
                     id=""
                     className="lg:hidden relative z-10 right-2"
                     onClick={showNavbar}>
-                    <span className="nav-btn"> {show ? <FaTimes  /> : <FaBars className="text-gray-700"/>} </span>
+                    <span className="nav-btn"> {show ? <FaTimes  /> : <FaBars className="text-black"/>} </span>
                 </button>
             </header>
         </>

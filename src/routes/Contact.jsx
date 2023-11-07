@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from '../component/Nav';
 import Footer from '../component/Footer';
-import {IoCallOutline} from 'react-icons/io5';
-import {AiOutlineMail} from 'react-icons/ai';
+import { IoCallOutline } from 'react-icons/io5';
+import { AiOutlineMail } from 'react-icons/ai';
 import Cont from '../assests/contact.jpg';
 import contact1 from '../assests/contact1.jpg';
 const Contact = () => {
     return (
         <>
             {/* <Navbar /> */}
-            <div className=''> { /* */}
+            <div className='-mt-28'> { /* */}
                 <div className='contactBanner relative '>
-                    <img src={Cont} alt="photechIndia"  className='opacity-90 w-full h-96 object-cover brightness-50  ' />
+                    <img src={Cont} alt="photechIndia" className='opacity-90 w-full h-2/3 object-cover brightness-50  ' />
                     <span className='text-6xl font-bold text-white absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 max-lg:text-4xl object-contain'>Contact Us</span>
                 </div>
                 <div className='  '>

@@ -10,23 +10,22 @@ const Home = () => {
         <>
             {/* <Navbar /> */}
             <div className='-mt-28'>
-            
+
                 <div className='relative  h-screen '>
                     <img src={BTW} alt="" className='absolute -z-50 brightness-50 h-screen w-full object-cover' />
-                    <div className='text-white w-2/3 bottom-28 max-lg:w-auto absolute left-10 max-lg:left-2 max-lg:bottom-10 '>
+                    <div className='text-white w-2/3 bottom-12 max-lg:w-auto absolute left-10 max-lg:left-2 max-lg:bottom-10 '>
                         <div>
-                            <p className="text-5xl max-lg:text-2xl max-md:text-xl text-white">
+                            <p className="text-4xl max-lg:text-2xl max-md:text-xl text-white">
                                 <span>Digital Engineering through</span><Type />
                             </p>
                         </div>
-                        <p className='text-2xl max-lg:text-lg  mt-10'>
-                        Your digital product success starts here; we are your partner in product development, 
-                        product design, and application modernization by offering end-to-end solutions, and 
-                        seamless user experience.
+                        <p className='text-xl max-lg:text-lg  mt-10'>
+                            Your digital product success starts here; we are your partner in product development,
+                            product design, and application modernization by offering end-to-end solutions, and
+                            seamless user experience.
                         </p>
                         <p className=' mt-4'><span className='text-xl bg-blue-600 p-3'><button>Contact us</button></span></p>
                     </div>
-
                 </div>
                 <div>
                     <div className='my-16 mx-32  flex justify-between max-lg:flex-col gap-10 max-lg:mx-12 max-md:mx-3  '>
@@ -72,8 +71,8 @@ const Home = () => {
                                     each person on the planet to achieve more.
                                 </p>
                                 <p className='mt-5'>
-                                The technology you use impresses no one. 
-                                The experience you create with it is everything.
+                                    The technology you use impresses no one.
+                                    The experience you create with it is everything.
                                 </p>
                                 <br />
                                 <p>We have been in this field for the last 5 years executing various jobs involving</p>
@@ -140,7 +139,7 @@ const Home = () => {
 
                 </div>
             </div>
-           
+
         </>
     )
 }

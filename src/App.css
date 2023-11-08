@@ -128,5 +128,7 @@ nav a.active {
 	background-image: url('./assests/Source.jpg');
 	background-size: contain;
 }
-
-.boxHeight {}
+.sidelink{
+	border:1px solid black;
+	padding: 10px 15px;
+}

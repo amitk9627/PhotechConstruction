@@ -76,7 +76,7 @@ const About = () => {
             <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>ESIC Code : 38000508860000999</span></p>
             <p className='flex items-center gap-3'><IoIosConstruct className='text-2xl text-yellow-400' /><span>Udyam Reg. No. : UDYAM-GJ-06-0001909</span></p>
           </div>
-          <div className='flex gap-10 max-lg:flex-col max-lg:gap-4'>
+          <div className='flex gap-10 max-lg:flex-col max-lg:gap-4 mb-10'>
             <div className='border-yellow-400 p-3 border-8 rounded-br-3xl rounded-tl-3xl'>
               <img src={c1} alt="" className='rounded-br-3xl rounded-tl-3xl' />
             </div >

@@ -24,8 +24,8 @@ function Navbar() {
                 <nav className={show ? "responsive_nav" : ""} >
                     <NavLink to="/h" className="text-xl font-bold">Home </NavLink>
                     <NavLink to="/about" className="text-xl font-bold">About</NavLink>
-                    <NavLink to="/services" className="text-xl font-bold">Services</NavLink>
-                    <NavLink to="/" className="text-xl font-bold">Our Work</NavLink>
+                    <NavLink to="/" className="text-xl font-bold">Services</NavLink>
+                    <NavLink to="/w" className="text-xl font-bold">Our Work</NavLink>
                     <NavLink to="/c" className="text-xl font-bold">Careers</NavLink>
                     <NavLink to="/contact" className="text-xl font-bold">Contact Us</NavLink>
 

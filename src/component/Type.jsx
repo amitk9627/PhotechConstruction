@@ -3,7 +3,9 @@ export default function Type() {
     return (
         <Typewriter
             options={{
-                strings: ['UI UX DESIGN', 'DIGITAL MARKETING',"WEB DEVELOPMENT","MOBILE APP DEVELOPMENT"], 
+                strings: ['UX & UI DESIGN', 'DIGITAL MARKETING', "WEB DEVELOPMENT", "MOBILE APP DEVELOPMENT",
+                    "ECOMMERCE WEBSITE DEVELOPMENT", "SERVER MANAGEMENT", "SOCIAL MEDIA OPTIMIZATION", "EMAIL MARKETING"
+                ],
                 autoStart: true,
                 loop: true,
             }}

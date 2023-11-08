@@ -89,7 +89,7 @@ export default function Works() {
               <p className='h-96 bg-red-500 w-full'>
                 <img src="" alt="photechindia" />
               </p>
-              <p className='h-96 bg-blue-600 w-full'>
+              <p className='h-96 w-full'>
                 <span>hello</span>
                 <span>hello</span>
                 <span>hello</span>
